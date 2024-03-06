@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - JavaScript Search Bar with Harry Potter Characters</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+    <body>
+
+        <div class="container box">
+            <form name="search">
+                <input id="search-field"
+                       type="text"
+                       class="input" 
+                       name="txt" 
+                       onmouseout="this.value = ''; this.blur();">
+            </form>
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="container">
+            <h1>&#x2729; Harry Potter Characters &#x2729;</h1>
+            <div id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="Search for a character"
+                />
+                
+            </div>
+            
+            <ul id="charactersList"></ul>
+        </div>
+    </body>
+</html>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
